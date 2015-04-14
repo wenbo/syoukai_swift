@@ -1,0 +1,5 @@
+let d1 = DayOfMonth(month:8, day:31)
+println(d1)
+var d2 = DateW(1992, 7, 19)
+println(d2)
+println(d1 == d2)

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6249" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tapping" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="orQ-uO-rMY"/>
+                        <viewControllerLayoutGuide type="bottom" id="V3E-iw-7gw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqH-nL-vLa">
+                                <rect key="frame" x="178" y="304" width="87" height="52"/>
+                                <color key="backgroundColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="87" id="BsK-Hn-xtE"/>
+                                    <constraint firstAttribute="height" constant="52" id="sMZ-v3-IVZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="One">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapped:" destination="G61-S3-b9d" eventType="touchUpInside" id="Igk-sy-c17"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssU-gb-ujZ">
+                                <rect key="frame" x="334" y="304" width="87" height="52"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Uvh-c1-BMK"/>
+                                    <constraint firstAttribute="width" constant="87" id="tF4-cp-HhN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Two">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TTv-Qn-f4n">
+                                <rect key="frame" x="150" y="201" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="GVq-Z2-U4i"/>
+                                    <constraint firstAttribute="height" constant="30" id="Gcu-hb-Klj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <attributedString key="userComments">
+                                    <fragment content="メッセージ">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AquaKana"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vqH-nL-vLa" firstAttribute="top" secondItem="TTv-Qn-f4n" secondAttribute="bottom" constant="73" id="3jq-W5-iw3"/>
+                            <constraint firstAttribute="centerX" secondItem="vqH-nL-vLa" secondAttribute="centerX" priority="750" id="Dp1-qm-qaQ"/>
+                            <constraint firstAttribute="centerX" secondItem="ssU-gb-ujZ" secondAttribute="centerX" constant="-77.5" id="J4R-su-BJe"/>
+                            <constraint firstAttribute="centerX" secondItem="ssU-gb-ujZ" secondAttribute="centerX" priority="750" id="JEN-Zo-HDV"/>
+                            <constraint firstAttribute="centerX" secondItem="TTv-Qn-f4n" secondAttribute="centerX" id="bBo-PV-zqO"/>
+                            <constraint firstItem="ssU-gb-ujZ" firstAttribute="leading" secondItem="vqH-nL-vLa" secondAttribute="trailing" constant="69" id="giL-rf-yGd"/>
+                            <constraint firstAttribute="centerY" secondItem="TTv-Qn-f4n" secondAttribute="centerY" constant="84" id="hAo-0E-e9D"/>
+                            <constraint firstAttribute="centerX" secondItem="vqH-nL-vLa" secondAttribute="centerX" constant="78.5" id="kVn-0k-0RL"/>
+                            <constraint firstItem="ssU-gb-ujZ" firstAttribute="top" secondItem="TTv-Qn-f4n" secondAttribute="bottom" constant="73" id="rSU-i2-ceO"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Dp1-qm-qaQ"/>
+                                <exclude reference="JEN-Zo-HDV"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="actor" destination="G61-S3-b9d" id="n89-t9-aRc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="G61-S3-b9d" customClass="Actor" customModule="Tapping" customModuleProvider="target">
+                    <connections>
+                        <outlet property="button2nd" destination="ssU-gb-ujZ" id="7SD-RY-fmd"/>
+                        <outlet property="text" destination="TTv-Qn-f4n" id="PSG-47-9SY"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="140" y="136"/>
+        </scene>
+    </scenes>
+</document>

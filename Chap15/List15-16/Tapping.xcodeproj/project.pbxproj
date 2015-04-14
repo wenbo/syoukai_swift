@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1A095219F1689A003A3261 /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A095119F1689A003A3261 /* Actor.swift */; };
+		4F1A095419F16CED003A3261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1A095319F16CED003A3261 /* Foundation.framework */; };
+		4F1A095619F16CF7003A3261 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1A095519F16CF7003A3261 /* UIKit.framework */; };
+		4FC6471C19F165AE00F587AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6471B19F165AE00F587AC /* AppDelegate.swift */; };
+		4FC6471E19F165AE00F587AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6471D19F165AE00F587AC /* ViewController.swift */; };
+		4FC6472119F165AE00F587AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC6471F19F165AE00F587AC /* Main.storyboard */; };
+		4FC6472319F165AE00F587AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC6472219F165AE00F587AC /* Images.xcassets */; };
+		4FC6472619F165AE00F587AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FC6472419F165AE00F587AC /* LaunchScreen.xib */; };
+		4FC6473219F165AE00F587AC /* TappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6473119F165AE00F587AC /* TappingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FC6472C19F165AE00F587AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FC6470E19F165AE00F587AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FC6471519F165AE00F587AC;
+			remoteInfo = Tapping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F1A095119F1689A003A3261 /* Actor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+		4F1A095319F16CED003A3261 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F1A095519F16CF7003A3261 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4FC6471619F165AE00F587AC /* Tapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC6471A19F165AE00F587AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC6471B19F165AE00F587AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FC6471D19F165AE00F587AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FC6472019F165AE00F587AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FC6472219F165AE00F587AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4FC6472519F165AE00F587AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4FC6472B19F165AE00F587AC /* TappingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TappingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC6473019F165AE00F587AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC6473119F165AE00F587AC /* TappingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FC6471319F165AE00F587AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1A095619F16CF7003A3261 /* UIKit.framework in Frameworks */,
+				4F1A095419F16CED003A3261 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC6472819F165AE00F587AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FC6470D19F165AE00F587AC = {
+			isa = PBXGroup;
+			children = (
+				4FC6471819F165AE00F587AC /* Tapping */,
+				4FC6472E19F165AE00F587AC /* TappingTests */,
+				4FC6471719F165AE00F587AC /* Products */,
+				4F1A095519F16CF7003A3261 /* UIKit.framework */,
+				4F1A095319F16CED003A3261 /* Foundation.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		4FC6471719F165AE00F587AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6471619F165AE00F587AC /* Tapping.app */,
+				4FC6472B19F165AE00F587AC /* TappingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FC6471819F165AE00F587AC /* Tapping */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6471B19F165AE00F587AC /* AppDelegate.swift */,
+				4FC6471D19F165AE00F587AC /* ViewController.swift */,
+				4FC6471F19F165AE00F587AC /* Main.storyboard */,
+				4FC6472219F165AE00F587AC /* Images.xcassets */,
+				4FC6472419F165AE00F587AC /* LaunchScreen.xib */,
+				4FC6471919F165AE00F587AC /* Supporting Files */,
+			);
+			path = Tapping;
+			sourceTree = "<group>";
+		};
+		4FC6471919F165AE00F587AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6471A19F165AE00F587AC /* Info.plist */,
+				4F1A095119F1689A003A3261 /* Actor.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FC6472E19F165AE00F587AC /* TappingTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6473119F165AE00F587AC /* TappingTests.swift */,
+				4FC6472F19F165AE00F587AC /* Supporting Files */,
+			);
+			path = TappingTests;
+			sourceTree = "<group>";
+		};
+		4FC6472F19F165AE00F587AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6473019F165AE00F587AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FC6471519F165AE00F587AC /* Tapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC6473519F165AE00F587AC /* Build configuration list for PBXNativeTarget "Tapping" */;
+			buildPhases = (
+				4FC6471219F165AE00F587AC /* Sources */,
+				4FC6471319F165AE00F587AC /* Frameworks */,
+				4FC6471419F165AE00F587AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tapping;
+			productName = Tapping;
+			productReference = 4FC6471619F165AE00F587AC /* Tapping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FC6472A19F165AE00F587AC /* TappingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC6473819F165AE00F587AC /* Build configuration list for PBXNativeTarget "TappingTests" */;
+			buildPhases = (
+				4FC6472719F165AE00F587AC /* Sources */,
+				4FC6472819F165AE00F587AC /* Frameworks */,
+				4FC6472919F165AE00F587AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FC6472D19F165AE00F587AC /* PBXTargetDependency */,
+			);
+			name = TappingTests;
+			productName = TappingTests;
+			productReference = 4FC6472B19F165AE00F587AC /* TappingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FC6470E19F165AE00F587AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Takeshi OGIHARA";
+				TargetAttributes = {
+					4FC6471519F165AE00F587AC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4FC6472A19F165AE00F587AC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4FC6471519F165AE00F587AC;
+					};
+				};
+			};
+			buildConfigurationList = 4FC6471119F165AE00F587AC /* Build configuration list for PBXProject "Tapping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FC6470D19F165AE00F587AC;
+			productRefGroup = 4FC6471719F165AE00F587AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FC6471519F165AE00F587AC /* Tapping */,
+				4FC6472A19F165AE00F587AC /* TappingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FC6471419F165AE00F587AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC6472119F165AE00F587AC /* Main.storyboard in Resources */,
+				4FC6472619F165AE00F587AC /* LaunchScreen.xib in Resources */,
+				4FC6472319F165AE00F587AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC6472919F165AE00F587AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FC6471219F165AE00F587AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC6471E19F165AE00F587AC /* ViewController.swift in Sources */,
+				4FC6471C19F165AE00F587AC /* AppDelegate.swift in Sources */,
+				4F1A095219F1689A003A3261 /* Actor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC6472719F165AE00F587AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC6473219F165AE00F587AC /* TappingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FC6472D19F165AE00F587AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FC6471519F165AE00F587AC /* Tapping */;
+			targetProxy = 4FC6472C19F165AE00F587AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FC6471F19F165AE00F587AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FC6472019F165AE00F587AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FC6472419F165AE00F587AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FC6472519F165AE00F587AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FC6473319F165AE00F587AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FC6473419F165AE00F587AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FC6473619F165AE00F587AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tapping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FC6473719F165AE00F587AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tapping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FC6473919F165AE00F587AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TappingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tapping.app/Tapping";
+			};
+			name = Debug;
+		};
+		4FC6473A19F165AE00F587AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TappingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tapping.app/Tapping";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FC6471119F165AE00F587AC /* Build configuration list for PBXProject "Tapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC6473319F165AE00F587AC /* Debug */,
+				4FC6473419F165AE00F587AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC6473519F165AE00F587AC /* Build configuration list for PBXNativeTarget "Tapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC6473619F165AE00F587AC /* Debug */,
+				4FC6473719F165AE00F587AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC6473819F165AE00F587AC /* Build configuration list for PBXNativeTarget "TappingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC6473919F165AE00F587AC /* Debug */,
+				4FC6473A19F165AE00F587AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FC6470E19F165AE00F587AC /* Project object */;
+}

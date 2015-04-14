@@ -1,0 +1,7 @@
+    The series is set in a world where Swift exists
+and has been utilized as a technology. Q! Rather
+than casting spells with chants or other traditional
+forms of spellcasting, programmers use a Casting
+Assistant Device, better known as a CAD. Programmers
+infuse the CAD with Xcode, a substanceless particle
+and psychic phenomenon.
